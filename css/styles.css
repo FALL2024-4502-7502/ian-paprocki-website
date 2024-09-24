@@ -60,6 +60,7 @@ ul {
       color: #0C2340;
   max-width: 3000px;
   text-align: center;
+  list-style-position: inside;
   margin: auto;
   font-size: 1rem;
   border-radius: 0.1rem;
