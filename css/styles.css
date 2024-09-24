@@ -80,12 +80,35 @@ a {
   align-content: center;
 }
 
-img {
-    align-items: center;
-    text-align: center;
-    padding: 3rem;
-    width: 800px;
-  }
+.picture-centered-text {
+  display: flex;
+  flex-direction: column;
+  border-radius: .5rem;
+}
+
+.picture-centered-text p {
+  margin: auto;
+  font-size: 1rem;
+  padding: 3rem;
+  
+}
+
+.picture-centered-text a {
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: space-around;
+   margin: 20px;
+}
+
+.picture-centered-text a img {
+
+  margin: auto;
+  max-width: 600px;
+  
+  
+
+}
 
 
 }
