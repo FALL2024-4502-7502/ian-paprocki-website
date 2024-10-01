@@ -3,7 +3,7 @@ body {
   background-color: #add8e6;
 
 nav {
-  font-family: "Oswald", sans-serif;
+  font-family: "Kanit", sans-serif;
     font-weight: 300;
     font-style: normal;
   max-width: 3000px;
@@ -37,7 +37,7 @@ p {
   margin: auto;
   font-size: 1rem;
   border-radius: 0.1rem;
-  align-content: center;
+  align-content:right;
 }
 
 h2 {
@@ -95,7 +95,9 @@ a {
 
 .picture-centered-text a {
   display: flex;
-  flex-direction: column;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: right;
   
   justify-content: space-around;
    margin: 20px;
@@ -112,6 +114,12 @@ a {
   body {
   background-color: #93bbec;
 }
+
+nav ul li {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: right;
 
 }
 
