@@ -21,7 +21,7 @@ h1 {
       color: #6F263D;
   max-width: 3000px;
   text-align: center;
-  margin: auto;
+  margin-right: 10px;
   font-size: 6rem;
   border-radius: 0.3rem;
   align-content: center;
@@ -38,6 +38,9 @@ p {
   font-size: 1rem;
   border-radius: 0.1rem;
   align-content:right;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 h2 {
@@ -74,11 +77,85 @@ a {
   max-width: 3000px;
   color: #0C2340;
   text-align: center;
-  margin: auto;
+  margin: 10px;
   font-size: 1rem;
   border-radius: 0.1rem;
   align-content: center;
 }
+
+footer {
+  font-family: "Oswald", sans-serif;
+  color: #0C2340;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+img {
+  align-items: center;
+  display: flex;
+  max-width: 95%;
+  height: 350px;
+  width: 250px;
+  margin-right: 250px;
+  margin-left: 10px;
+}
+
+.list-item {
+  display: flex;
+  flex direction: column;
+  justify-content: center;
+  height: 90vh;
+  margin: 10px;
+  border: 6px solid #6F263D;
+  padding: 5px;
+  align-items: center;
+  margin: 60px;
+
+}
+    
+
+@media screen and (max-width: 780px){
+
+h2 {
+  font-weight: 500;
+  font-size: 2.8rem;
+  margin-left: 1rem;
+  padding-left: 0.;
+}
+
+@media screen and (max-width: 700px){
+
+main {
+  width: 100%;
+}
+
+  img {
+  align-items: center;
+  display: flex;
+  max-width: 95%;
+  height: 300px;
+  width: 200px;
+  display: flex;
+  align-content: center;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 6px solid #6F263D;
+  padding: 10px;
+}
+
+
+
 
 .picture-centered-text {
   display: flex;
@@ -107,21 +184,7 @@ a {
 
   margin: auto;
   max-width: 600px;
+
   
-  /*start of media queries*/
-@media screen and (max-width: 200px){
-
-  body {
-  background-color: #93bbec;
-}
-
-nav ul li {
-  display: flex;
-  align-items: stretch;
-  flex-direction: row;
-  justify-content: right;
-
-}
-
 
 }
