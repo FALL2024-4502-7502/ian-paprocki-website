@@ -4,6 +4,25 @@ body {
   margin: 0;
   padding: 0;
 
+.skip-link {
+  color: #F1B82D;
+  position: absolute; 
+  left: 0;
+  padding: 10px 20px;
+  text-decoration: none;
+  z-index: 1000;
+  margin-left: 20px;
+  margin-top: 17px;
+}
+
+.skip-link:hover {
+    top: 0;
+    color: white;
+    background-color: black;
+  }
+
+
+
 nav {
   font-family: "Kanit", sans-serif;
     font-weight: 300;
@@ -29,6 +48,8 @@ nav a {
 	font-family: "Kanit", sans-serif;
 	color: white;
 	text-decoration: none;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 nav a:hover {
@@ -137,6 +158,12 @@ img {
   margin-left: 10px;
 }
 
+.setter { 
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+ }
+
 button {
 
 	background-color: black;
@@ -157,6 +184,8 @@ button:hover {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .gallery-image {
@@ -181,7 +210,7 @@ button:hover {
     max-width: 600px;
     border-radius: 15px;
     margin-top: 50px;
-    margin-bottom: 23px;
+    margin-bottom: 27px;
 }
 
 .hideThis {
@@ -191,6 +220,9 @@ button:hover {
 figcaption {
 	margin-left: 90px;
 	margin-right: 90px;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  font-size: 19px;
 }
 
 .list-item {

@@ -1,17 +1,57 @@
 body {
 
   background-color: #add8e6;
+  margin: 0;
+  padding: 0;
+
+.skip-link {
+  color: #add8e6;
+  position: absolute; 
+  left: 0;
+  padding: 10px 20px;
+  text-decoration: none;
+  z-index: 1000;
+  margin-left: 20px;
+  margin-top: 17px;
+}
+
+.skip-link:hover {
+    top: 0;
+    color: white;
+    background-color: #6F263D;
+  }
 
 nav {
   font-family: "Kanit", sans-serif;
     font-weight: 300;
     font-style: normal;
+    color: white;
   max-width: 3000px;
   text-align: center;
-  margin: auto;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 15px;
   font-size: 1rem;
-  border-radius: 0.1rem;
+  border-radius: 0.9rem;
   align-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #6F263D;
+  padding: 1px;
+}
+
+nav a {
+  font-family: "Kanit", sans-serif;
+  color: white;
+  text-decoration: none;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+nav a:hover {
+  color: #add8e6;
 }
 
 h1 {
@@ -54,6 +94,7 @@ h2 {
   font-size: 4rem;
   border-radius: 0.3rem;
   align-content: center;
+  margin-top: 0px;
 }
 
 ul {
@@ -96,7 +137,7 @@ footer {
 img {
   align-items: center;
   display: flex;
-  max-width: 95%;
+  max-width: 100%;
   height: 350px;
   width: 250px;
   margin-right: 250px;
@@ -107,7 +148,7 @@ img {
   display: flex;
   flex direction: column;
   justify-content: center;
-  height: 90vh;
+  height: 60vh;
   margin: 10px;
   border: 6px solid #6F263D;
   padding: 5px;
