@@ -376,7 +376,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 95vh;
+  height: 105vh;
   margin: 10px;
   border: 6px solid #000000;
   box-shadow: 0 0 0 5px white;
