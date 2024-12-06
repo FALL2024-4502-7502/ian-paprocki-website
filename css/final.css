@@ -292,6 +292,8 @@ figcaption {
 nav {
   display: flex;
   flex-direction: column;
+  margin-left: 123px;
+  margin-right: 123px;
 }
 
 .desc-label {
@@ -345,7 +347,7 @@ main {
 }
 
 .desc-label {
-  font-size: 10px;
+  font-size: 11px;
   margin: 1;
 }
 
@@ -354,6 +356,13 @@ p {
   font-size: 1.0rem;
   margin-right: 90px;
   margin-left: 90px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  margin-left: 125px;
+  margin-right: 125px;
 }
 
 .list-item img {
